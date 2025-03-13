@@ -1,0 +1,22 @@
+[project]
+name = "dynamo-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Colton Herrod",email = "colton@herrod.net"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3 (>=1.37.11,<2.0.0)",
+    "pyqt5 (>=5.15.11,<6.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
